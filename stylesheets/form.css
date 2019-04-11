@@ -1,0 +1,153 @@
+/* line 2, ../sass/form.scss */
+body {
+  background-image: url("/image/mountain.png");
+  background-position: center;
+  background-size: 100%;
+}
+
+/* line 7, ../sass/form.scss */
+header {
+  color: purple;
+}
+
+/* line 11, ../sass/form.scss */
+.form_row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* line 18, ../sass/form.scss */
+form {
+  color: white;
+  font-size: 17px;
+  font-style: bold;
+  margin-top: 50px;
+}
+/* line 23, ../sass/form.scss */
+form div {
+  margin: 10px 0;
+}
+
+/* line 30, ../sass/form.scss */
+.form_content {
+  margin-top: 50px;
+}
+/* line 34, ../sass/form.scss */
+.form_content .form_section_1 {
+  width: 700px;
+  display: flex;
+  justify-content: space-between;
+}
+/* line 39, ../sass/form.scss */
+.form_content .form_section_1 .form_section_input {
+  width: 450px;
+  display: flex;
+  justify-content: flex-start;
+  justify-content: space-between;
+}
+/* line 45, ../sass/form.scss */
+.form_content .form_section_1 .form_section_input input {
+  width: 200px;
+}
+/* line 51, ../sass/form.scss */
+.form_content .form_section_2 {
+  display: flex;
+  justify-content: space-between;
+  width: 700px;
+}
+/* line 56, ../sass/form.scss */
+.form_content .form_section_2 .form_input_mail {
+  display: flex;
+  justify-content: flex-start;
+  width: 450px;
+}
+/* line 60, ../sass/form.scss */
+.form_content .form_section_2 .form_input_mail input {
+  width: 450px;
+}
+/* line 67, ../sass/form.scss */
+.form_content .form_section_3 {
+  display: flex;
+  justify-content: space-between;
+  width: 700px;
+}
+/* line 72, ../sass/form.scss */
+.form_content .form_section_3 .form_input_phone {
+  display: flex;
+  justify-content: flex-start;
+  justify-content: space-between;
+  width: 450px;
+}
+/* line 79, ../sass/form.scss */
+.form_content .form_section_3 .form_input_phone input {
+  width: 120px;
+}
+/* line 85, ../sass/form.scss */
+.form_content .form_section_4 {
+  width: 700px;
+  display: flex;
+  justify-content: space-between;
+}
+/* line 89, ../sass/form.scss */
+.form_content .form_section_4 input {
+  height: 100px;
+  width: 450px;
+}
+
+/* line 96, ../sass/form.scss */
+.form_section_5 {
+  display: flex;
+  justify-content: space-between;
+  width: 700px;
+}
+/* line 100, ../sass/form.scss */
+.form_section_5 .radio_input {
+  width: 450px;
+}
+
+/* line 108, ../sass/form.scss */
+.form_select {
+  display: flex;
+  justify-content: space-between;
+  width: 700px;
+}
+/* line 112, ../sass/form.scss */
+.form_select select {
+  width: 200px;
+  padding: 5px;
+  border-radius: 5px;
+  outline: none;
+}
+/* line 119, ../sass/form.scss */
+.form_select .select {
+  width: 450px;
+}
+
+/* line 125, ../sass/form.scss */
+input {
+  padding: 5px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+}
+
+/* line 132, ../sass/form.scss */
+.label {
+  width: 150px;
+}
+
+/* line 136, ../sass/form.scss */
+button {
+  background: lightgreen;
+  border: none;
+  width: 150px;
+  padding: 5px;
+  border-radius: 5px;
+}
+/* line 142, ../sass/form.scss */
+button:hover {
+  cursor: pointer;
+  background-color: lightgoldenrodyellow;
+}

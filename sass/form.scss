@@ -1,0 +1,146 @@
+$border: 1px solid black;
+body {
+  background-image: url("/image/mountain.png");
+  background-position: center;
+  background-size: 100%;
+}
+header {
+  color: purple;
+}
+
+.form_row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+form {
+  color: white;
+  font-size: 17px;
+  font-style: bold;
+  margin-top: 50px;
+  & div {
+    margin: 10px 0;
+  }
+}
+
+//////////////////////////  FORM_CONTENT STARTS HERE ///////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+.form_content {
+  margin-top: 50px;
+
+  /////==================== FORM_SECTION_1 ====================================================================================================================////////////////
+  .form_section_1 {
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+
+    .form_section_input {
+      width: 450px;
+      display: flex;
+      justify-content: flex-start;
+      justify-content: space-between;
+
+      input {
+        width: 200px;
+      }
+    }
+  }
+  //////////===================== FORM_SECTION_2 ============================================================================================================/////////////////////////
+  .form_section_2 {
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+
+    .form_input_mail {
+      display: flex;
+      justify-content: flex-start;
+      width: 450px;
+      input {
+        width: 450px;
+      }
+    }
+  }
+
+  //////////////========================= FORM_SECTION_3 ==========================================================================================//////////////////////////////////
+  .form_section_3 {
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+
+    .form_input_phone {
+      display: flex;
+      justify-content: flex-start;
+      justify-content: space-between;
+
+      width: 450px;
+
+      input {
+        width: 120px;
+      }
+    }
+  }
+  //////////=============================== FORM_SECTION_4=========================================================================================/////////////////////////////////
+  .form_section_4 {
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+    input {
+      height: 100px;
+      width: 450px;
+    }
+  }
+}
+
+.form_section_5 {
+  display: flex;
+  justify-content: space-between;
+  width: 700px;
+  .radio_input {
+    width: 450px;
+  }
+}
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+.form_select {
+  display: flex;
+  justify-content: space-between;
+  width: 700px;
+  select {
+    width: 200px;
+    padding: 5px;
+    border-radius: 5px;
+    outline: none;
+  }
+
+  .select {
+    width: 450px;
+  }
+}
+////////////////////////////////////////// FORM_CONTENT ENDS HERE ////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+input {
+  padding: 5px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+}
+
+.label {
+  width: 150px;
+}
+
+button {
+  background: lightgreen;
+  border: none;
+  width: 150px;
+  padding: 5px;
+  border-radius: 5px;
+  &:hover {
+    cursor: pointer;
+    background-color: lightgoldenrodyellow;
+  }
+}
